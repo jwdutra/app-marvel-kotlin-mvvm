@@ -3,12 +3,14 @@ package daniel.lop.io.marvelappstarter.ui.list
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import dagger.hilt.android.AndroidEntryPoint
 import daniel.lop.io.marvelappstarter.databinding.FragmentListCharacterBinding
 import daniel.lop.io.marvelappstarter.ui.base.BaseFragment
 
 // Esta classe representa um fragmento na aplicação Android que exibe uma lista de personagens.
 // Ela estende a classe BaseFragment, que é uma classe genérica que recebe dois parâmetros de tipo:
 // FragmentListCharacterBinding e ListCharacterViewModel.
+@AndroidEntryPoint
 class ListCharacterFragment : BaseFragment<FragmentListCharacterBinding, ListCharacterViewModel>() {
 
     // A propriedade viewModel é inicializada usando o delegate viewModels, que fornece um ViewModel com escopo para este Fragment.

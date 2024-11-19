@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.viewbinding.ViewBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 // BaseFragment é uma classe abstrata que serve como base para todos os fragments no aplicativo.
 // Ela usa genéricos para garantir o uso de um tipo específico de ViewBinding e ViewModel.
