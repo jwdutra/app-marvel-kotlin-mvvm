@@ -15,3 +15,11 @@ fun View.show() {
 fun View.hide() {
     visibility = View.INVISIBLE
 }
+
+fun String.limitDescription(characters: Int): String {
+    return if (this.length > characters) {
+        this.substring(0, characters) + "..."
+    } else {
+        this
+    }
+}
