@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+app/src/main/java/daniel/lop/io/marvelappstarter/util/Constants.kt
+
