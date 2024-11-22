@@ -10,7 +10,7 @@ class MarvelConverters {
         Gson().toJson(thumbnailModel)
 
     @TypeConverter
-    fun toThumbnail(thumbnail: String): ThumbnailModel =
-        Gson().fromJson(thumbnail, ThumbnailModel::class.java)
+    fun toThumbnail(thumbnailModel: String): ThumbnailModel =
+        Gson().fromJson(thumbnailModel, ThumbnailModel::class.java)
 
 }
